@@ -18,4 +18,4 @@ function setRotation(element, rotationRatio){
     element.style.getProperty('rotation', rotationRatio * 360)
 }
 
-setClock()
+setClock()   
