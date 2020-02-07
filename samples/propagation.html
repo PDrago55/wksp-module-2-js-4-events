@@ -14,6 +14,7 @@
         button.addEventListener("mousedown", event => {
           console.log("Handler for button.");
           if (event.button === 2) event.stopPropagation();
+          // the event.button === 2 is for left clicking a button//
         });
       </script>
 </body>
