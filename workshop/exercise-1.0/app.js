@@ -9,3 +9,12 @@
 // OPTIONAL
 // Feel free to add some CSS to this once you're done
 // --------------------------------------------------
+
+
+const body = document.querySelector("body");
+const p = document.querySelector('p');
+
+body.addEventListener("click", function() {
+    p.innerText = 'Fuck You!!';
+    // console.log("Fuck You.");
+});

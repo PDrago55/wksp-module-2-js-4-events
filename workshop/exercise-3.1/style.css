@@ -1,0 +1,15 @@
+.container {
+    /* background-color: black; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 20px;
+    width: 50%;
+    border: 2px solid black;
+    background-color: lightcoral;
+}
