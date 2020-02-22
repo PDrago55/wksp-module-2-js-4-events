@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: "Poppins";
+  background-color: black;
+}
+
+/* placing the .gif in the background */
+
+.main {
+  background-image: url("imgs/bg.gif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.start {
+  text-align: center;
+  padding: 20px;
+  width: auto 0;
+  background-color: transparent;
+  font-size: 3rem;
+}
+
+.instructions {
+  text-align: center;
+  width: auto 0;
+  padding: 20px;
+  background-color: transparent;
+  font-size: 3rem;
+}
+
+.title {
+  text-align: center;
+  color: black;
+}
+
+#helpMe {
+  font-size: 40px;
+  background-color: transparent;
+}
+
+/* trying to fix images */
+/* .fix{
+}
+
+.image1 {
+    padding: 100px 700px 0 0; */
+/* position: absolute; */
+/* } */
+
+/* .image2 {
+    padding: 0 0 100px 1250px; */
+/* position: absolute; */
+/* } */
