@@ -2,7 +2,7 @@ const mainDiv = document.getElementById('main');
 
 function turnGreen(event) {
     const buttonId = event.target.id;
-    document.getElementById(buttonId).classList.add('green');
+    document.getElementById('buttonId').classList.add('green');
 }
 
 for (let i = 1; i <= 20; i++) {
